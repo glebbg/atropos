@@ -17,6 +17,7 @@ from atroposlib.envs.server_handling.server_baseline import APIServer, APIServer
 
 __all__ = ["VLLMServer", "resolve_openai_configs"]
 
+
 class VLLMServer(APIServer):
     """
     VLLM server handling.
@@ -216,7 +217,7 @@ class VLLMServer(APIServer):
             output_tokens_list,
             output_logprobs_list,
             finish_reasons_list,
-        )    
+        )
 
 
 if __name__ == "__main__":

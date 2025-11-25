@@ -13,6 +13,7 @@ from atroposlib.envs.server_handling.server_baseline import APIServer, APIServer
 
 __all__ = ["OpenAIServer", "resolve_openai_configs"]
 
+
 class OpenAIServer(APIServer):
     """
     OpenAI server handling.

@@ -103,4 +103,3 @@ def resolve_openai_configs(
             server_configs = [final_openai_config]
 
     return server_configs
-
